@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>language labels for mpossnewssorting/tt_news BE forms</description>
+		<type>database</type>
+		<csh_table></csh_table>
+		<fileId>EXT:mpossnewssorting/locallang_tca.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="sorting">Manual sorting</label>
+    </languageKey>
+		<languageKey index="de" type="array">
+			<label index="sorting">Manuell sortiert</label>
+    </languageKey>
+  </data>
+</T3locallang>

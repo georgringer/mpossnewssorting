@@ -1,0 +1,28 @@
+{
+  "name": "georgringer/mpossnewssorting",
+  "type": "typo3-cms-extension",
+  "description": "Manual sorting for tt_news",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "tt_news"
+  ],
+  "authors": [
+    {
+      "name": "Georg Ringer",
+      "role": "Developer",
+      "homepage": "http://ringer.it"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "typo3/cms-core": "^7.6.0 || ^8.7.13",
+    "rupertgermann/tt_news": "^7.6.0"
+  },
+  "replace": {
+    "news": "self.version",
+    "typo3-ter/mpossnewssorting": "self.version"
+  }
+}
